@@ -17,5 +17,5 @@ abstract class BaseConfigParser implements ConfigParser
         $this->configFile = $configFile;
     }
 
-    abstract public function parse();
+    public function parse() {}
 }
